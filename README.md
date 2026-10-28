@@ -1,3 +1,5 @@
+> **Fork 说明**:本仓库为 lanlandeli/dsh-usage-stats 的个人 fork(更名 `dsh-usage-monitor`),已适配 DSH 0.2.x,详见 [FORK-NOTES.md](FORK-NOTES.md)。
+
 # 📊 dsh-usage-stats
 
 [English](./README.en.md)

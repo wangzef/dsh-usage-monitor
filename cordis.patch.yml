@@ -1,6 +1,6 @@
 - insert:
-    - id: usage-stats
-      name: dsh-usage-stats
+    - id: usage-monitor
+      name: dsh-usage-monitor
       inject: [sessionQuery, webServer]
       config:
         indexConcurrency: 2

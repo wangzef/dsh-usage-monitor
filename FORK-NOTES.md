@@ -1,6 +1,6 @@
 # Fork 说明:兼容 DeepSeek Harness 0.2.x
 
-本仓库是 [lanlandeli/dsh-usage-stats](https://github.com/lanlandeli/dsh-usage-stats) v0.1.16 的个人 fork,
+本仓库是 [lanlandeli/dsh-usage-stats](https://github.com/lanlandeli/dsh-usage-stats) v0.1.16 的个人 fork(已更名 `dsh-usage-monitor`),
 修复了其在 **DeepSeek Harness(DSH)0.2.1-rc.2** 上无法加载的问题(升级 DSH 后,侧边栏左下角的用量入口消失)。
 
 ## 与上游 v0.1.16 的差异(commit 2)
@@ -34,12 +34,12 @@
   `~/.dsh/usage-stats/index-v1.json` 后重启可强制全量重建,数据会从会话日志完整恢复。
 - 本 fork 面向个人使用,未改变上游的功能逻辑;上游发布适配 0.2.x 的版本后建议切回官方版。
 
-## 在 DSH 中使用本 fork
+## 在 DSH 中使用本 fork(注意:包已更名为 dsh-usage-monitor)
 
 profile(`~/.dsh/profiles/web/package.json`)中把依赖指向本仓库:
 
 ```json
-"dsh-usage-stats": "github:<你的用户名>/dsh-usage-stats"
+"dsh-usage-monitor": "github:<你的用户名>/dsh-usage-monitor"
 ```
 
 并确认它在 `dsh.profile.bundles` 数组中,重启 DSH 即可。
