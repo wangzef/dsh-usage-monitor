@@ -1,23 +1,23 @@
 > **Fork 说明**:本仓库为 lanlandeli/dsh-usage-stats 的个人 fork(更名 `dsh-usage-monitor`),已适配 DSH 0.2.x,详见 [FORK-NOTES.md](FORK-NOTES.md)。
 
-# 📊 dsh-usage-stats
+# 📊 dsh-usage-monitor
 
 [English](./README.en.md)
 
 > DeepSeek Harness Token 使用情况，一目了然。
 
-[![npm version](https://img.shields.io/npm/v/dsh-usage-stats?style=flat-square&logo=npm)](https://www.npmjs.com/package/dsh-usage-stats)
-[![npm downloads](https://img.shields.io/npm/dm/dsh-usage-stats?style=flat-square)](https://www.npmjs.com/package/dsh-usage-stats)
+[![npm version](https://img.shields.io/npm/v/dsh-usage-monitor?style=flat-square&logo=npm)](https://www.npmjs.com/package/dsh-usage-monitor)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-usage-monitor?style=flat-square)](https://www.npmjs.com/package/dsh-usage-monitor)
 [![CI](https://img.shields.io/github/actions/workflow/status/lanlandeli/dsh-usage-stats/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/lanlandeli/dsh-usage-stats/actions)
 [![Node](https://img.shields.io/badge/node-%3E%3D22.19%20%7C%7C%20%3E%3D24-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![License](https://img.shields.io/npm/l/dsh-usage-stats?style=flat-square)](./LICENSE)
+[![License](https://img.shields.io/npm/l/dsh-usage-monitor?style=flat-square)](./LICENSE)
 
-dsh-usage-stats 是面向 DeepSeek Harness Web UI 的轻量使用统计插件，用于集中展示 Token 总量、每日趋势、活跃日期及模型分布。
+dsh-usage-monitor 是面向 DeepSeek Harness Web UI 的轻量使用统计插件，用于集中展示 Token 总量、每日趋势、活跃日期及模型分布。
 
 插件通过 Harness 提供的扩展接口集成，不修改 Web UI 或官方 npm 包。统计数据保存在本机。
 
 ```sh
-dsh plugin --profile web add dsh-usage-stats
+dsh plugin --profile web add dsh-usage-monitor
 ```
 
 重启 Web Profile 后，侧边栏「设置」上方会出现 **使用统计**。
@@ -25,8 +25,8 @@ dsh plugin --profile web add dsh-usage-stats
 更新或卸载：
 
 ```sh
-dsh plugin --profile web update dsh-usage-stats
-dsh plugin --profile web remove dsh-usage-stats
+dsh plugin --profile web update dsh-usage-monitor
+dsh plugin --profile web remove dsh-usage-monitor
 ```
 
 ## 🎬 效果演示

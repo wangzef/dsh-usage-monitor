@@ -1,21 +1,21 @@
-# 📊 dsh-usage-stats
+# 📊 dsh-usage-monitor
 
 [简体中文](./README.md)
 
 > DeepSeek Harness token usage at a glance.
 
-[![npm version](https://img.shields.io/npm/v/dsh-usage-stats?style=flat-square&logo=npm)](https://www.npmjs.com/package/dsh-usage-stats)
-[![npm downloads](https://img.shields.io/npm/dm/dsh-usage-stats?style=flat-square)](https://www.npmjs.com/package/dsh-usage-stats)
+[![npm version](https://img.shields.io/npm/v/dsh-usage-monitor?style=flat-square&logo=npm)](https://www.npmjs.com/package/dsh-usage-monitor)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-usage-monitor?style=flat-square)](https://www.npmjs.com/package/dsh-usage-monitor)
 [![CI](https://img.shields.io/github/actions/workflow/status/lanlandeli/dsh-usage-stats/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/lanlandeli/dsh-usage-stats/actions)
 [![Node](https://img.shields.io/badge/node-%3E%3D22.19%20%7C%7C%20%3E%3D24-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![License](https://img.shields.io/npm/l/dsh-usage-stats?style=flat-square)](./LICENSE)
+[![License](https://img.shields.io/npm/l/dsh-usage-monitor?style=flat-square)](./LICENSE)
 
-dsh-usage-stats is a lightweight usage analytics plugin for the DeepSeek Harness Web UI. It presents lifetime token totals, daily trends, activity dates, and model distribution in one dashboard.
+dsh-usage-monitor is a lightweight usage analytics plugin for the DeepSeek Harness Web UI. It presents lifetime token totals, daily trends, activity dates, and model distribution in one dashboard.
 
 The plugin integrates through Harness extension APIs without modifying the Web UI or official npm packages. Statistics remain on the local machine.
 
 ```sh
-dsh plugin --profile web add dsh-usage-stats
+dsh plugin --profile web add dsh-usage-monitor
 ```
 
 Restart the Web profile and open **Usage Statistics** above Settings in the sidebar.
@@ -23,8 +23,8 @@ Restart the Web profile and open **Usage Statistics** above Settings in the side
 Update or remove the plugin:
 
 ```sh
-dsh plugin --profile web update dsh-usage-stats
-dsh plugin --profile web remove dsh-usage-stats
+dsh plugin --profile web update dsh-usage-monitor
+dsh plugin --profile web remove dsh-usage-monitor
 ```
 
 ## Demo
